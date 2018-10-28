@@ -14,8 +14,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kalwi7/weekly3"
-  },
+    "url": "git+https://github.com/kalwi7/weekly3.git"
+  }, 
   "author": "Dawid",
   "license": "ISC",
   "bugs": {
