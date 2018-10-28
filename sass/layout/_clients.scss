@@ -1,0 +1,9 @@
+.clients{
+    padding: 8rem 13rem;
+    display: flex;
+    justify-content: space-between;  
+
+    &__logo{
+        display: inline-block;  
+    }
+}

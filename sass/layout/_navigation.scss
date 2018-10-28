@@ -1,0 +1,22 @@
+.user-nav{
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+
+    &__list{
+        list-style-type: none;
+
+        display: flex;
+        padding: 4rem 2rem;
+    }
+    &__item{
+        
+        &:not(:last-child){
+            margin-right: 3rem;
+        }
+    }
+    &__link{
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+} 

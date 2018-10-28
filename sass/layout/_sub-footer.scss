@@ -1,0 +1,65 @@
+.sub-footer{ 
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+
+    &__group{   
+        flex: 1;
+    }
+    &__heading{
+        font-family: $font-sans-serif;
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: $color-white; 
+    }
+    &__list{
+        list-style-type: none;
+        font-size: 1.8rem;
+        padding-left: 4rem;
+    }
+    &__item{
+        position: relative;
+        margin-bottom: 2rem; 
+
+        &::before{
+            content: ''; 
+            width: 2.3rem;
+            height: 2.3rem; 
+            position: absolute;  
+            left: -3.7rem;; 
+        }
+  
+        &--contact{
+            &:nth-child(1)::before{
+                content: url(/img/map-marker-alt-solid.svg);  
+            }
+            &:nth-child(2)::before{
+                content: url(/img/phone-solid.svg);   
+            }
+            &:nth-child(3)::before{
+                content: url(/img/envelope-regular.svg);   
+            }
+        }
+    
+        &--post{
+            &::before{  
+                content: url(/img/newspaper-regular.svg);  
+            }
+        }
+
+        &--tweet{
+            &::before{  
+                content: url(/img/twitter-brands.svg);   
+            }
+        }
+    }
+ 
+    &__hash{
+        font-weight: 800;
+        color: $color-white; 
+    }
+    &__time{
+        font-size: 1.3rem; 
+    }
+}

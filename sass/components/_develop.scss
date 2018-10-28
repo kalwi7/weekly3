@@ -1,0 +1,21 @@
+.develop{
+    width: 50%; 
+    
+    display: flex;
+    flex-direction: column;
+    &__item{ 
+        margin-bottom: 1.8rem;
+
+        display: flex;
+        align-items: center;
+    }
+    &__icon{
+        
+    }
+    &__info{
+        padding-left: 1.8rem;
+    }
+    &__more{
+
+    }
+}

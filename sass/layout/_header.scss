@@ -1,0 +1,24 @@
+.header{
+
+    &__top{
+        font-family: $font-sans-serif;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__logo-block{
+
+    }
+    &__logo{
+        width: 20rem;
+    }
+    &__hero{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
