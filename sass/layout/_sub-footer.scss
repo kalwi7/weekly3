@@ -2,9 +2,18 @@
     display: flex;
     flex-direction: row;  
     justify-content: space-between;
+    flex-wrap: wrap; 
 
-    &__group{   
-        flex: 1;
+  
+
+    &__group{  
+        min-width: 30rem; 
+
+        flex: 1 0 33%;  
+        
+        @media only screen and (max-width: $bp-medium){
+            padding-bottom: 2rem;
+        }
     }
     &__heading{
         font-family: $font-sans-serif;

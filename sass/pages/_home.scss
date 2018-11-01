@@ -1,17 +1,30 @@
 .section-services{
     padding: 15rem 0;
+
+    @media only screen and (max-width: $bp-largest){
+        padding-left: 2rem;
+        padding-right: 2rem; 
+    }
 } 
 
 .section-benefits{
-    padding-top: 12rem;
+  //  padding-top: 12rem;
 } 
 
 .section-projects{
     padding: 12rem 0;
+
+    @media only screen and (max-width: $bp-smallest){  
+        padding: 12rem 2rem;    
+    }  
 } 
 
 .projects-container{
     display: flex;
+
+    @media only screen and (max-width: $bp-largest){ 
+        justify-content: center; 
+    }
 }
 
 .section-values{
@@ -21,6 +34,11 @@
 
 .section-clients{
     padding: 12rem 0;
+
+    @media only screen and (max-width: $bp-largest){
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
 
 .contact-CTA{
@@ -28,8 +46,13 @@
     padding: 12rem 0;
     text-align: center;
 }
-
+ 
 .section-sub-footer{
     background-color: $color-dark-grey;
     padding: 8rem 0;
+
+    @media only screen and (max-width: $bp-largest){
+        padding-left: 2rem;
+        padding-right: 2rem;
+    };
 }

@@ -3,16 +3,28 @@
     font-size: 1.6rem;
     font-weight: 600;
 
+    @media only screen and (max-width: $bp-smallest){
+        font-size: 1.5rem;
+    }
+
     &__list{
         list-style-type: none;
 
         display: flex;
         padding: 4rem 2rem;
+
+        @media only screen and (max-width: $bp-smallest){
+            padding: 2em .5rem; 
+        }
     }
     &__item{
         
         &:not(:last-child){
             margin-right: 3rem;
+
+            @media only screen and (max-width: $bp-smallest){
+                margin-right: 2.4rem;
+            }
         }
     }
     &__link{

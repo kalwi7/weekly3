@@ -9,6 +9,10 @@
         background-position: right; 
 
         flex: 1 1 30%;
+
+        @media only screen and (max-width: $bp-medium){
+            display: none; 
+        }
     }
 
     &__right{
@@ -16,6 +20,14 @@
         background-image: url(/img/services.jpg);
         background-size: cover; 
         padding: 11rem; 
+
+        @media only screen and (max-width: $bp-small){
+            padding: 5rem;  
+        }
+
+        @media only screen and (max-width: $bp-smallest){
+            padding: 5rem 2rem;  
+        }
     }
 
     &__list{

@@ -10,7 +10,7 @@
     align-items: center;
 
     &__box{
-        width: 70rem;
+        max-width: 70rem;
 
         display: flex;
         flex-direction: column;

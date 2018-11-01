@@ -4,17 +4,32 @@
     display: flex; 
     flex-direction: row;  
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;    
+
+    @media only screen and (max-width: $bp-largest){
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest){
+        padding: 1.2rem 0;
+
+        flex-direction: column;   
+        justify-content: space-around;  
+    }
 
     &__copyright{
         font-size: 1.8rem; 
        
     }
     &__list{ 
-    
         list-style-type: none;  
 
         display: flex;
+
+        @media only screen and (max-width: $bp-smallest){
+            margin-top: 1.4rem;
+        }
     }
     &__link{
         width: 4rem;
