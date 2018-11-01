@@ -41,25 +41,25 @@
   
         &--contact{
             &:nth-child(1)::before{
-                content: url(/img/map-marker-alt-solid.svg);  
+                content: url(img/map-marker-alt-solid.svg);  
             }
             &:nth-child(2)::before{
-                content: url(/img/phone-solid.svg);   
+                content: url(img/phone-solid.svg);   
             }
             &:nth-child(3)::before{
-                content: url(/img/envelope-regular.svg);   
+                content: url(img/envelope-regular.svg);   
             }
         }
     
         &--post{
             &::before{  
-                content: url(/img/newspaper-regular.svg);  
+                content: url(img/newspaper-regular.svg);  
             }
         }
 
         &--tweet{
             &::before{  
-                content: url(/img/twitter-brands.svg);   
+                content: url(img/twitter-brands.svg);   
             }
         }
     }

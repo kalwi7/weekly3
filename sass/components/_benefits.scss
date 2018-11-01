@@ -4,7 +4,7 @@
     margin: 0 auto;
 
     &__left{ 
-        background-image: url(/img/screw.jpg);
+        background-image: url(img/screw.jpg);
         background-size: cover;
         background-position: right; 
 
@@ -17,7 +17,7 @@
 
     &__right{
         flex: 1 1 70%;
-        background-image: url(/img/services.jpg);
+        background-image: url(img/services.jpg);
         background-size: cover; 
         padding: 11rem; 
 
